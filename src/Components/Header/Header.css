@@ -1,0 +1,38 @@
+header {
+  background-color: #323233;
+/* position: fixed; */
+  width: 100%;
+  height: 30px;
+}
+.internal-wrapper {
+  width: 680px;
+  margin: 0 auto;
+}
+.internal-wrapper ul {
+  display: flex;
+
+  justify-content: space-between;
+}
+.internal-wrapper ul li img {
+  width: 15px;
+  height: 15px;
+  /* display:block;
+    vertical-align: top; */
+}
+
+.internal-wrapper ul li {
+  list-style: none;
+  font-size: 0.7em;
+}
+.internal-wrapper li a {
+  text-decoration: none;
+  color: #dbdbdb;
+
+  display: inline-block;
+  padding: 8px 0 0px;
+  height: 25px;
+  opacity: 0.8;
+}
+.internal-wrapper li a:hover {
+  opacity: 1;
+}

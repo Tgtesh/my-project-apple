@@ -1,0 +1,31 @@
+.second-left{
+    background-image: url("../../images/home/macbook_air__knzp0i282eyy_small.jpg");
+    background-position:center;
+    background-size: cover;
+    text-align: center;
+    background-color: black;
+    color: #fbfbfd;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.product-title3{
+    font-weight: 600;
+    font-size: 30px;
+     letter-spacing: -0.05em;
+}
+
+.second-right{
+    background-image: url("../../images/home/FITNESS.jpg");
+    background-color: #fbfbfb;
+    background-position:  bottom;
+    background-size: 700px auto;
+    text-align: center;
+    color: black;
+    padding-top: 60px;
+    margin-bottom: 10px;
+}
+.try-it a:last-child::after{
+content: "\1F865";
+font-weight: 600;
+padding-left: 5px;
+}

@@ -1,0 +1,52 @@
+.third-section{
+    background-image: url("../../images/home/hero_apple_card__bt4lpouoeyoi_small.jpg");
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size:initial;
+    text-align: center;
+    height: 419px;
+    color: black;
+    padding-top: 80px;
+    margin-bottom: 10px;
+    background-color: #fbfbfd;
+}
+.logo-image{
+    width: 100px;
+    margin: 0 auto;
+}
+small{
+    font-size: 10px;
+    padding-top: 20px;
+}
+.product-title{
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+}
+.discription{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    line-height: 1em;
+    padding: 10px 0;
+    word-wrap:inherit;  
+}
+.price{
+    color: #86868b;
+    font-size: 12px;
+    letter-spacing: -0.05em;
+    padding-bottom: 8px;
+    word-wrap:inherit;  
+}
+.links a{
+    color: #06c;
+    text-decoration: none;
+    font-weight: 550;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.links a::after{
+    font-family: "FontAwesome";
+    content: "\f105";
+}

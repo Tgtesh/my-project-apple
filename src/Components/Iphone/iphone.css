@@ -1,0 +1,24 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.subtitle-wrapper{
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.discWrapper{
+height: 550px;
+}
+.description{
+padding-top: 150px;
+height: 500px;
+}
+.imgWrapper{
+    width: 550px;
+    height: 650px;
+    margin-bottom: 20px;
+}
+.image img{
+    height: 630px;
+}

@@ -1,0 +1,117 @@
+.left-wrapper{
+    text-align: center;
+     background-repeat: no-repeat;
+    height: 419px;
+}
+
+.first-left{
+background-image: url("../../images/home/ipad-md.jpg.jpg");
+ background-position:top;
+    background-size: 480px auto;
+    text-align: center;
+    color: black;
+    /* padding-top: 80px; */
+    margin-bottom: 10px;
+    background-color: #fbfbfd;
+    position: relative;
+    /* padding-top: 380px; */
+}
+.discription1{
+    position: absolute;
+    bottom: 30px;
+    margin-left: 35%;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    line-height: 1em;
+    padding: 10px 0;
+    word-wrap:inherit;  
+}
+
+
+.links1 a{
+    color: #06c;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 15px;
+}
+.links1 a:hover{
+    text-decoration: underline;
+}
+.links1 a::after{
+    font-family: "FontAwesome";
+    content: "\f105";
+}
+.links1{
+    position: absolute;
+    bottom: 10px;
+
+    margin-left: 40%;
+}
+.product-title2{
+    display: none;
+    font-weight: 600;
+    font-size: 30px;
+     letter-spacing: -0.05em;
+}
+
+.links2 a{
+    color: #06c;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 15px;
+}
+.links2 a:hover{
+    text-decoration: underline;
+}
+.links2 a::after{
+    font-family: "FontAwesome";
+    content: "\f105";
+}
+
+.right-wrapper{
+    text-align: center;
+     background-repeat: no-repeat;
+     height: 419px;
+}
+.first-right{
+    background-image: url("../../images/home/WATCH.jpg");
+    background-color: black;
+    background-position:bottom;
+    background-size: 200px auto;
+    text-align: center;
+   
+    color: #fbfbfd;
+    padding-top: 40px;
+    margin-bottom: 10px;
+
+}
+@media (min-width: 768px) {   
+    .first-left{
+background-image: url("../../images/home/hero.jpg");
+background-position:bottom;
+    }
+    .discription1{
+        padding-top: 30px;
+    position:relative;
+    text-align: center;
+    margin-left: 5%;
+    }
+    .links1{
+    position: relative;
+    text-align: center;
+     margin-left: 5%;
+    }
+    .fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
+	    margin: 10px 5px 5px 10px;
+	}
+	.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+	    margin: 10px 10px 5px 5px;
+	}		
+	.product-title2 {
+        display: block;
+	  font-size: 56px;
+	}
+ 
+
+}

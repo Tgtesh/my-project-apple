@@ -1,0 +1,37 @@
+.upper-section{
+    width: 100%;
+    background-color: #0071E3;  
+}
+.covid-wrapper{
+
+     text-align: center;
+
+    /* margin-top: 55px; */
+    padding: 5px;
+}
+.covid-section a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.covid-section a:hover{
+    text-decoration: underline;
+}
+.covid-section a:after{
+    font-family: "FontAwesome";
+    content: "\f105";
+    padding-left: 5px;
+}
+.shop-online{
+    text-align: center;
+    background-color: #fbfbfb;
+    padding: 5px;
+     font-size: 12px;
+}
+.shop-online a{
+    color: blue;
+    text-decoration: none;
+}
+.shop-online a:hover{
+    text-decoration: underline;
+}
